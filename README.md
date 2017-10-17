@@ -4,7 +4,7 @@
 Question 1: Data from an article by Robert Rutledge in Annals of Sugery in 1993
 Determine wheater waering SB has an effect on survival. Interpret your results should you wear your seat belt?
 
-Question 2 Compare the approx. and actual test for difference in 2 proportions using
+Question 2 Compare the approx. and actual test for difference in 2 proportions using                                              
 a. Only look at those groups that had an attack                                                         
 b. Attack of any type vs no attack. Check if attack rate is different from placebo and asprin. 
 
