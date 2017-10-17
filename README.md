@@ -13,7 +13,7 @@ Question 1: After looking at the table provided, I used prop.test function to fi
 and if it increases the chance of survival
 
 Question 2: After looking at table provided, I used prop.test and the fisher test to figure out if asprin effects if someone gets 
-fatal or non fatal attacks, and I stuided if taking aspirn effects if someone gets an attack vs. not getting an attack. 
+fatal or non fatal attacks, and I studied if taking aspirn effects if someone gets an attack vs. not getting an attack. 
 
 ## Conclusion
 Question 1:
@@ -21,7 +21,7 @@ Ho: no seatbelt survival equals seatbelt survival. Ha:  no seatbelt survival < s
 Pvalue was 2.72e-07, which tells me that not wearing has a lower survival rate than wearing a seatbelt.
 So people should wear a seatbelt
 
-Question 2:
+Question 2:                                                                                                                   
 (a)Only looking at those groups that had an attack. 
 H0: placbo fatal attack = aspirin fatal attack. Ha: placebo fatal attack doesn't equal aspirin fatal attack. 
 Pvalue was .1509, which means I can't reject null hypothesis. 
