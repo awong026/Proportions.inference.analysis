@@ -34,7 +34,7 @@ prop.test(x = c(1781, 1443), n = c(1781+135, 1443 +47), correct = F) #pvalue = .
 prop.test(x = c(1781, 1443), n = c(1781+135, 1443 +47), correct = F, alternative = "less") #pvalue = 2.72 e-07
 
 #Conclusion:
-#Ho: no seatbelt survival ??? seatbelt survival. Ha:  no seatbelt survival < seatbelt survival. 
+#Ho: no seatbelt survival equals seatbelt survival. Ha:  no seatbelt survival < seatbelt survival. 
 #Pvalue was 2.72e-07, which tells me that not wearing has a lower survival rate than wearing a seatbelt.
 #So wear a seatbelt
 
@@ -63,7 +63,7 @@ fisher.test(matrix(c(18, 171, 5,99), ncol = 2)) #pvalue = .1782
 
 #Conclusion:
 #Only looking at those groups that had an attack. 
-#H0: placbo fatal attack = aspirin fatal attack. Ha: placebo fatal attack ??? aspirin fatal attack. 
+#H0: placbo fatal attack = aspirin fatal attack. Ha: placebo fatal attack doesn't equal aspirin fatal attack. 
 #Pvalue was .1509, which means I can't reject null hypothesis. 
 #Placebo and aspirin doesn't seem to have a significant effect on if people get fatal or non-fatal attacks
 
@@ -72,7 +72,7 @@ prop.test(x = c(18+171, 5+99), n = c(18+171+10845, 5+99 + 10933), correct = F) #
 fisher.test(matrix(c(18+171, 10845, 99+5, 10933), ncol = 2)) #pvalue = .0000000000533
 
 #Conclusion:
-#Ho: placebo attack = aspirin attack. Ha: placebo attack ??? aspirin attack. 
+#Ho: placebo attack = aspirin attack. Ha: placebo attack doesn't equal aspirin attack. 
 #The pvalue for this test was 5.692 e-07. This tells me that we reject null hypothesis. 
 #Aspirin does have an effect on if people have an attack or not. 
             
