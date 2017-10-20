@@ -3,7 +3,7 @@
 ###############################################################################################################
 
 #Question 1: Data from an article by Robert Rutledge in Annals of Sugery in 1993
-#Determine wheater waering SB has an effect on survival. INterpret your results should you wear your seat belt?
+#Determine whether wearing SB has an effect on survival. Interpret your results should you wear your seat belt?
 
 ###############################################################################################################
 
